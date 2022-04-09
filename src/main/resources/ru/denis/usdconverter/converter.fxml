@@ -34,7 +34,7 @@
                   <Font name="Arial Bold" size="13.0" />
                </font>
             </Button>
-            <Label fx:id="result" alignment="TOP_CENTER" prefHeight="50.0" prefWidth="250.0" text="fddddddddddddddddddddddvfdv dfvrvrvrvrvrv rvrvrvrvrvrv vrvrvrvrv" textAlignment="CENTER">
+            <Label fx:id="result" alignment="TOP_CENTER" prefHeight="50.0" prefWidth="250.0" textAlignment="CENTER">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
