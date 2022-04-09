@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" styleClass="bg" stylesheets="@converter.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.denis.usdconverter.ConverterController">
+      <VBox layoutX="75.0" layoutY="25.0" prefHeight="250.0" prefWidth="250.0" styleClass="bg">
+            <Label alignment="TOP_CENTER" prefHeight="18.0" prefWidth="250.0" text="Enter the amount of USD" textAlignment="CENTER" textFill="#484848">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="textField" onKeyPressed="#onKeyPressed" promptText="Enter USD" styleClass="text-field">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </TextField>
+            <Button alignment="TOP_CENTER" defaultButton="true" mnemonicParsing="false" onMouseClicked="#onCalculateButtonClick" prefHeight="30.0" prefWidth="250.0" styleClass="btn" text="Convert" textAlignment="CENTER" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="35.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="result" alignment="TOP_CENTER" prefHeight="50.0" prefWidth="250.0" text="fddddddddddddddddddddddvfdv dfvrvrvrvrvrv rvrvrvrvrvrv vrvrvrvrv" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </Label>
+      </VBox>
+</AnchorPane>
